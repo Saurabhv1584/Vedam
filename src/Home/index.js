@@ -22,7 +22,7 @@ const Home = () => {
           controls
           autoPlay
           autoFocus
-          src="7578546-uhd_3840_2160_30fps.mp4"
+          src="first_video.mp4"
           preload="metadata"
           className="ml-auto mr-auto"
         />
@@ -31,7 +31,8 @@ const Home = () => {
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
           <div className="md:w-1/2 mb-6 md:mb-0">
             <img
-              src="1.jpeg"
+              src="/public/1.jpeg"
+              // src="1.jpeg"
               alt="img"
               className="w-full h-auto object-cover rounded-lg"
             />
@@ -41,7 +42,7 @@ const Home = () => {
           <div className="md:w-1/2 md:px-12 text-center md:text-left animationLeft">
             <h2 className="text-3xl md:text-4xl font-semibold text-[#7a6e66] uppercase tracking-wide mb-4">
               Building
-            </h2>
+            </h2> 
             <p className="text-base md:text-xl leading-7 text-gray-600 mb-8">
               Bring together the sage design approach of MZA Architecture, the
               interior and amenity experts at B+H Architects, and the
