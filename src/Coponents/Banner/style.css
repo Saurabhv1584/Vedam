@@ -1,0 +1,9 @@
+.banner_modal{
+    padding: 0;
+
+    .ant-modal-content{
+        padding: 0;
+        border-radius: 0;
+
+    }
+}
