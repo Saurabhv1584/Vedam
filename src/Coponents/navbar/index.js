@@ -4,27 +4,10 @@ import { Affix } from "antd";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBuilding } from "@fortawesome/free-regular-svg-icons";
-import { faCakeCandles, faLaptopFile, faPersonChalkboard, faVault } from "@fortawesome/free-solid-svg-icons";
+import { faLaptopFile, faPersonChalkboard, faVault } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
-  let arr = [true, false, false, false, false, false];
-  const [style, setStyle] = useState(arr);
-  const [dropDown, setDropDown] = useState(true);
-  const [text, setText] = useState("");
 
-  const selected = (props) => {
-    let newArr = [...arr];
-    for (let i = 0; i < newArr.length; i++) {
-      newArr[i] = false;
-    }
-    newArr[props] = true;
-    setStyle(newArr);
-  };
-
-  const setSelectedText = (txt) => {
-    setText(txt);
-    setDropDown(true);
-  };
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -34,10 +17,12 @@ const Navbar = () => {
           <div className="z-11111 mx-auto flex justify-between items-center">
             {/* Logo and Company Name */}
             <NavLink to="/" className="flex items-center" end>
-              <div className="h-8 w-8 bg-blue-500 rounded-full"></div>
-              <span className="text-lg ml-4 font-semibold text-gray-800">
+              {/* <div className="h-8 w-8 bg-blue-500 rounded-full"></div> */}
+              <img className="h-8 w-24 mix-blend-luminosity" src="logo-2.png"  alt="logo" />
+              {/* <img className="h-8" src="logo-4.jpg" alt="logo" /> */}
+              {/* <span className="text-lg ml-4 font-semibold text-gray-800">
                 Vedam Homes
-              </span>
+              </span> */}
             </NavLink>
 
             {/* Desktop Menu */}

@@ -7,7 +7,7 @@ import Footer from "../Coponents/footer";
 import { NavLink } from "react-router-dom";
 
 const Home = () => {
-  const [isBannerOpn, setIsBannerOpn] = useState(true);
+  const [isBannerOpn, setIsBannerOpn] = useState(false);
   const { width, height, orientation } = useWindowInfo();
   console.log(width, height, orientation);
   return (
