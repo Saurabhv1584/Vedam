@@ -2,14 +2,14 @@ import React from "react";
 import Navbar from "../Coponents/navbar";
 import Footer from "../Coponents/footer";
 import GalleryCarousel from "../Coponents/GalleryCarousel";
-import '../Building/style.css'
+import './style.css'
 
 const Amenities = () => {
   return (
     <div className="bg-[#f5f0e9]">
       <Navbar />
 
-      <div className="mx-auto container py-16 px-6 animation">
+      <div className="mx-auto py-6 sm:py-10 md:py-16 px-6 amenityAnimation">
         <div className="flex flex-col lg:flex-row justify-center items-center 2xl:space-x-40 xl:space-x-34 lg:space-x-24 space-y-8 lg:space-y-0">
           <div>
             <img src="1.jpeg" className="aspect-[1.4/1]" alt="girl" />
@@ -37,7 +37,7 @@ const Amenities = () => {
         </div>
       </div>
 
-      <div className="mx-auto container py-16 px-6 animationLeft">
+      <div className="mx-auto py-2 sm:py-6 px-4 sm:px-6 md:px-8 amenityAnimationLeft">
         <div className="flex flex-col lg:flex-row justify-center items-center 2xl:space-x-40 xl:space-x-34 lg:space-x-24 space-y-8 lg:space-y-0">
           <div className="md:px-12 lg:px-0 flex flex-col justify-start items-start lg:w-2/3 xl:w-3/3 2xl:w-3/3">
             <div className="xl:mt-4 mt-2">
