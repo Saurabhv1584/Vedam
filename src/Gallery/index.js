@@ -10,7 +10,7 @@ const Gallery = () => {
       <Navbar />
       {/* <div className="bg-[#F5F0E9]"> */}
       <div className="flex justify-center items-center">
-        <div className="2xl:mx-auto 2xl:container lg:px-20 lg:py-16 md:py-12 md:px-6 py-9 px-4 w-96 sm:w-auto">
+        <div className="px-4 md:px-6 lg:px-20 2xl:mx-auto 2xl:container  lg:py-16 md:py-12  py-9 w-auto">
           <div className="flex flex-col items-center justify-center">
             <h1 className="text-4xl font-semibold leading-9 text-center text-gray-800">
               Welcome to Veda homes
@@ -19,7 +19,7 @@ const Gallery = () => {
             The team at B+H Architects planned every layout to give residents an intimate connection with Bellevue’s nature-rich landscape
             </p>
           </div>
-          <div className="lg:flex items-stretch md:mt-12 mt-8">
+          <div className="lg:flex items-stretch md:mt-12 mt-8 pl-4 sm:pl-0">
             <div className="lg:w-1/2">
               <div className="sm:flex items-center justify-between xl:gap-x-8 gap-x-6">
                 <div className="sm:w-1/2 relative">
@@ -38,7 +38,7 @@ const Gallery = () => {
                   </div>
                   <img
                     src="https://i.ibb.co/DYxtCJq/img-1.png"
-                    className="w-full"
+                    className="w-[90%] sm:w-full"
                     alt="chair"
                   />
                 </div>
@@ -47,7 +47,7 @@ const Gallery = () => {
                     {/* <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
                       12 April 2021
                     </p> */}
-                    <div className="absolute bottom-0 left-0 p-6">
+                    <div className="absolute bottom-0 left-0 p-6 z-1">
                       <h2 className="text-xl font-semibold 5 text-white">
                         The Decorated Ways
                       </h2>
@@ -58,7 +58,7 @@ const Gallery = () => {
                   </div>
                   <img
                     src="https://i.ibb.co/3C5HvxC/img-2.png"
-                    className="w-full"
+                    className="w-[90%] sm:w-full"
                     alt="wall design"
                   />
                 </div>
@@ -68,7 +68,7 @@ const Gallery = () => {
                   {/* <p className="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
                     12 April 2021
                   </p> */}
-                  <div className="absolute bottom-0 left-0 md:p-10 p-6">
+                  <div className="absolute bottom-0 left-0 md:p-10 p-6 z-1">
                     <h2 className="text-xl font-semibold 5 text-white">
                       The Decorated Ways
                     </h2>
@@ -80,10 +80,10 @@ const Gallery = () => {
                 <img
                   src="https://i.ibb.co/Ms4qyXp/img-3.png"
                   alt="sitting place"
-                  className="w-full mt-8 md:mt-6 hidden sm:block"
+                  className="w-[90%] sm:w-full mt-8 md:mt-6 hidden sm:block"
                 />
                 <img
-                  className="w-full mt-4 sm:hidden"
+                  className="w-[90%] sm:w-full mt-4 sm:hidden"
                   src="https://i.ibb.co/6XYbN7f/Rectangle-29.png"
                   alt="sitting place"
                 />
@@ -107,10 +107,10 @@ const Gallery = () => {
                 <img
                   src="https://i.ibb.co/6Wfjf2w/img-4.png"
                   alt="sitting place"
-                  className="w-full sm:block hidden"
+                  className="w-[90%] sm:w-full sm:block hidden"
                 />
                 <img
-                  className="w-full sm:hidden"
+                  className="w-[90%] sm:w-full sm:hidden galleryAnimationRight"
                   src="https://i.ibb.co/dpXStJk/Rectangle-29.png"
                   alt="sitting place"
                 />
@@ -132,7 +132,7 @@ const Gallery = () => {
                   </div>
                   <img
                     src="https://i.ibb.co/3yvZBpm/img-5.png"
-                    className="w-full"
+                    className="w-full galleryAnimationLeft"
                     alt="chair"
                   />
                 </div>
@@ -152,7 +152,7 @@ const Gallery = () => {
                   </div>
                   <img
                     src="https://i.ibb.co/gDdnJb5/img-6.png"
-                    className="w-full"
+                    className="w-full galleryAnimationRight"
                     alt="wall design"
                   />
                 </div>
@@ -164,7 +164,7 @@ const Gallery = () => {
 
       <GalleryCarousel />
 
-      <div className="xl:flex items-center 2xl:mx-40 2xl:container py-16 sm:mx-20 animationRight">
+      <div className="xl:flex items-center 2xl:mx-40 2xl:container py-16 sm:mx-20 galleryAnimation">
             <div className="lg:p-24 sm:p-9 md:p-16 p-4 2xl:w-8/12 xl:w-11/12 w-full custom_box_shadow">
                 <h1 className="text-4xl font-semibold leading-9 text-gray-800">Subscribe</h1>
                 <p className="text-base leading-4 mt-2 text-gray-600">Subscribe to our newsletter to get news about latest trends</p>
