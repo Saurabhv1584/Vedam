@@ -10,13 +10,13 @@ const Building = () => {
       <Navbar />
       <div className="flex flex-col justify-center">
         <img
-          className="h-[calc(100vh-80px)] p-4"
+          className="h-calc(100vh - 1.2*30vh) sm:h-[calc(100vh-20vh)] md:h-[calc(100vh-10vh)] p-4"
           src="https://maribellevue.wpengine.com/wp-content/uploads/Dreamlife_Mira2_Cam2_Exterior_Lake_Final-1.jpg"
           alt="building"
         />
       </div>
 
-      <div className="py-12 animationLeft">
+      <div className="py-12 buildingAnimationLeft">
         <div className=" mx-auto px-6 flex flex-col md:flex-row items-center justify-center">
           {/* Text Section */}
           <div className="flex items-center flex-col px-4 text-center">
@@ -44,16 +44,16 @@ const Building = () => {
         </div>
       </div>
 
-      <div className=" mx-auto px-4 flex items-center box-border mt-6 animation">
+      <div className=" mx-auto px-4 flex items-center box-border mt-6 buildingAnimation">
         <img src='https://maribellevue.wpengine.com/wp-content/uploads/Dreamlife_Mira2_Cam3_Exterior_CityView_Final-1__1.jpg' alt="img" className="ml-auto mr-auto h-[calc(100vh-80px)]" />
       </div>
 
-      <div className=" mx-auto lg:mx-auto relative mt-4 xl:px-20 lg:px-16 md:px-12 md:flex items-center gap-8 animationRight">
-        <div class="text-color flex justify-center flex-col w-4/5 md:w-1/3 sm:w-4/5 pt-4 sm:px-12 lg:pt-2 xl:pt-10 md:pl-16 md:pr-12 pl-0 pr-0">
+      <div className="mx-auto px-6 lg:mx-auto relative mt-4 xl:px-20 lg:px-16 md:px-12 md:flex items-center gap-8 buildingAnimationRight">
+        <div className="text-color flex justify-center flex-col w-4/5 md:w-1/3 sm:w-4/5 pt-4 sm:px-12 lg:pt-2 xl:pt-10 md:pl-8 md:pr-12 pl-0 pr-0">
           <h1 className="text-4xl md:text-4xl lg:text-4xl w-11/12 lg:w-11/12 xl:w-full xl:text-4xl text-gray-900 font-extrabold f-f-l">
             Build, review and ship with ease
           </h1>
-          <div className="f-f-r text-base lg:text-base pb-20 sm:pb-0 pt-10 xl:pt-6">
+          <div className="f-f-r text-base lg:text-base pb-10 sm:pb-0 pt-6 sm:pt-10 xl:pt-6">
             <h2>
               The next big thing starts here. Start building with Prodify and be
               the first to market with a product that is ready to take on the
@@ -62,13 +62,13 @@ const Building = () => {
           </div>
         </div>
         <img
-          className="w-full mt-8 md:mt-0 object-fill md:w-2/3 md:-ml-4 lg:-ml-4 xl:ml-0"
+          className="w-full mt-2 sm:mt-6 md:mt-0 object-fill md:w-2/3 md:-ml-4 lg:-ml-4 xl:ml-0"
           src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Graphic.png"
           alt="Sample"
         />
       </div>
 
-      <div className="lg:px-20 md:px-6 px-4 md:py-12 py-8 animationLeft">
+      <div className="lg:px-20 md:px-6 px-4 md:py-12 py-8 buildingAnimationLeft">
             <div className="lg:flex items-center justify-between">
             <div className="lg:w-7/12 lg:mt-0 mt-8">
                     <div className="w-full h-full bg-red-200">
@@ -77,7 +77,7 @@ const Building = () => {
                     </div>
                     <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 lg:gap-8 gap-6 lg:mt-8 md:mt-6 mt-4">
                         <img src="3.jpeg" className="w-full" alt="kitchen" />
-                        <img src="10.jpeg" className="w-full" alt="sitting room" />
+                        <img src="10.jpeg" className="w-full mt-2 mb:4 sm:mb-0" alt="sitting room" />
                     </div>
                 </div>
                 <div className="lg:w-1/3 mt-4">
@@ -98,8 +98,8 @@ const Building = () => {
         </div>
 
       <div
-        className="py-20 2xl:px-0 lg:px-12 px-4 sm:py-0 2xl:mx-auto animationRight"
-        style={{ height: 1000 }}
+        className="py-4 sm:py:14 md:py:20 2xl:px-0 lg:px-12 px-4 2xl:mx-auto buildingAnimationRight"
+        // style={{ height: 1000 }}
       >
         <div className="md:flex items-center justify-between w-full">
           <div className="xl:w-1/3 md:w-1/2 w-full">
@@ -108,7 +108,7 @@ const Building = () => {
             </h1>
             <p
               role="contentinfo"
-              className="focus:outline-none text-base leading-6 mt-8 text-gray-600 2xl:pr-24 xl:pr-0 pr-12"
+              className="focus:outline-none text-base leading-6 mt-4 sm:mt-8 text-gray-600 2xl:pr-24 xl:pr-0 pr-12"
             >
               The design team at MZA Architects conceived an homage to
               Bellevue’s landscape: a monument of stone, wood and glass. The
@@ -171,7 +171,7 @@ const Building = () => {
         </div>
       </div>
 
-      <div className="dark:bg-gray-900 animation">
+      <div className="dark:bg-gray-900 buildingAnimation">
             <div className="flex flex-col lg:flex-row items-stretch justify-between lg:px-0 px-6 lg:py-20 py-8 2xl:mx-auto 2xl:">
                 <div className="relative lg:w-1/2">
                     <div className="hidden dark:bg-gray-800 bg-gray-100 w-full lg:w-10/12 lg:h-full lg:flex justify-end items-center">

@@ -1,17 +1,17 @@
-.animation {
+.buildingAnimation {
     animation: scroll linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
   }
-  .animationLeft {
+  .buildingAnimationLeft {
     animation: scrollfromLeft linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+    animation-range: entry 0% cover 20%;
   }
-  .animationRight {
+  .buildingAnimationRight {
     animation: scrollfromRight linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+    animation-range: entry 0% cover 20%;
   }
   
   @keyframes scroll {
