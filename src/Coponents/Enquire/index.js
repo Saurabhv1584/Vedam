@@ -132,7 +132,7 @@ const Enquire = () => {
               About Us
             </h1>
             <p className="font-normal text-base leading-6 text-gray-600 ">
-              Mari is a new collection of boutique luxury studio, 1-, 2- and
+              VEDAM is a new collection of boutique luxury studio, 1-, 2- and
               3-bedroom condominiums in downtown Bellevue, WA. Each home offers
               high-end finishes and soaring ceiling heights. Amenities include a
               sky lounge, rooftop deck, private dining room, zen library,

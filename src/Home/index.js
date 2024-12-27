@@ -44,7 +44,7 @@ const Home = () => {
             <p className="text-base md:text-xl leading-7 text-gray-600 mb-8">
               Bring together the sage design approach of MZA Architecture, the
               interior and amenity experts at B+H Architects, and the
-              development vision of Create World Real Estate, and you get Mari.
+              development vision of Create World Real Estate, and you get VEDAM.
             </p>
             <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
               Explore
@@ -67,7 +67,7 @@ const Home = () => {
             <p className="text-base md:text-xl leading-7 text-gray-600 mb-8">
               Bring together the sage design approach of MZA Architecture, the
               interior and amenity experts at B+H Architects, and the
-              development vision of Create World Real Estate, and you get Mari.
+              development vision of Create World Real Estate, and you get VEDAM.
             </p>
             <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
               Explore

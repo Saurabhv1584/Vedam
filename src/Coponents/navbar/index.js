@@ -28,14 +28,14 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <Affix className="z-111111" offsetTop={0}>
-      <div className="2xl:container 2xl:mx-auto">
+    <Affix className="z-111111 h-auto" offsetTop={0} offsetBottom={0}>
+      <div className="2xl:mx-auto">
         <div className="bg-[#f5f0e9]  rounded shadow-[4px_4px_4px_rgba(0,0,0,0.25)] py-5 px-7 ">
-          <div className="container z-11111 mx-auto flex justify-between items-center">
+          <div className="z-11111 mx-auto flex justify-between items-center">
             {/* Logo and Company Name */}
             <NavLink to="/" className="flex items-center" end>
               <div className="h-8 w-8 bg-blue-500 rounded-full"></div>
-              <span className="text-lg font-semibold text-gray-800">
+              <span className="text-lg ml-4 font-semibold text-gray-800">
                 Vedam Homes
               </span>
             </NavLink>

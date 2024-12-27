@@ -22,12 +22,12 @@ const Amenities = () => {
             </div>
             <div className="xl:mt-6 mt-4">
               <p className="text-base leading-6 text-gray-600">
-                You don’t have to live in a MARI Penthouse to enjoy the
+                You don’t have to live in a VEDAM Penthouse to enjoy the
                 limitless view from the top. All residents have open-air and
                 indoor access to the stunning panorama of Bellevue and beyond
-                from the 20th floor rooftop. The SkyClub at MARI, a private
+                from the 20th floor rooftop. The SkyClub at VEDAM, a private
                 parlor with full kitchen, fireplace and double-height ceilings
-                opens out onto the landscaped SkyDeck at MARI with Flame Grill
+                opens out onto the landscaped SkyDeck at VEDAM with Flame Grill
                 Stations—the first of its kind in downtown Bellevue. Also
                 available to residents are the reservable Altitude Dining Room
                 and Summit Room.
@@ -73,12 +73,12 @@ const Amenities = () => {
             </div>
             <div className="xl:mt-6 mt-4">
               <p className="text-base leading-6 text-gray-600">
-                You don’t have to live in a MARI Penthouse to enjoy the
+                You don’t have to live in a VEDAM Penthouse to enjoy the
                 limitless view from the top. All residents have open-air and
                 indoor access to the stunning panorama of Bellevue and beyond
-                from the 20th floor rooftop. The SkyClub at MARI, a private
+                from the 20th floor rooftop. The SkyClub at VEDAM, a private
                 parlor with full kitchen, fireplace and double-height ceilings
-                opens out onto the landscaped SkyDeck at MARI with Flame Grill
+                opens out onto the landscaped SkyDeck at VEDAM with Flame Grill
                 Stations—the first of its kind in downtown Bellevue. Also
                 available to residents are the reservable Altitude Dining Room
                 and Summit Room.

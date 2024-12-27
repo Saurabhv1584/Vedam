@@ -2,7 +2,6 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './Home';
 import Building from './Building';
-import Neighborhood from './Neighborhood';
 import Gallery from './Gallery';
 import Amenities from './Amenities';
 import Enquire from './Coponents/Enquire';
