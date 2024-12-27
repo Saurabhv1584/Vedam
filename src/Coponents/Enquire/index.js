@@ -8,6 +8,23 @@ const Enquire = () => {
     <div className="bg-[#f5f0e9]">
       <Navbar />
 
+      <div className="">
+            <div className="container mx-auto py-2 md:py-6 lg:py-8">
+                <div className="relative mx-4">
+                    <img src="https://i.ibb.co/q5k5j57/bench-accounting-nvzv-OPQW0gc-unsplash-1-1.png" alt="A work table with house plants" className="w-full h-full hidden lg:block" />
+                    <img src="https://i.ibb.co/94jQFsV/bench-accounting-nvzv-OPQW0gc-unsplash-1-1.png" alt="A work table with house plants" className="hidden sm:block lg:hidden w-full h-full" />
+                    <img src="https://i.ibb.co/cJz8LZ2/bench-accounting-nvzv-OPQW0gc-unsplash-1-1.png" alt="A work table with house plants" className="sm:hidden w-full h-full" />
+
+                    <div className="absolute z-2 top-0 left-0 mx-4 sm:mx-0 mt-36 sm:mt-0 sm:py-20 md:py-28 lg:py-20 xl:py-28 sm:pl-14 flex flex-col sm:justify-start items-start">
+                        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-gray-800 sm:w-8/12">Minimalist Furniture Design</h1>
+                        <p className="text-base leading-normal text-gray-800 mt-4 sm:mt-5 sm:w-5/12">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        {/* <button className="hidden sm:flex bg-gray-800 py-4 px-8 text-base font-medium text-white mt-8 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-gray-700">Explore</button> */}
+                    </div>
+                    {/* <button className="absolute bottom-0 sm:hidden dark:bg-white dark:text-gray-800 bg-gray-800 py-4 text-base font-medium text-white mt-8 flex justify-center items-center w-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-gray-700">Explore</button> */}
+                </div>
+            </div>
+        </div>
+
       <div className="mt-8 py-4 lg:py-8  relative">
         <img
           src="https://cdn.tuk.dev/assets/templates/radian/Back_Image.png"
@@ -15,13 +32,13 @@ const Enquire = () => {
           alt="map"
         />
         <div className="xl:mx-auto xl:container  relative ">
-          <div className="flex flex-wrap xl:mx-auto xl:container">
+          <div className="flex flex-wrap sm:px-12 px-4">
             <div className="w-full relative lg:w-1/2 xl:mt-10 mb-10 2xl:pr-24 2xl:pl-0 xl:pl-12 pl-0 ">
-              <img
+              {/* <img
                 src="https://cdn.tuk.dev/assets/templates/radian/Back_Image.png"
                 className="h-full w-full xl:w-1/2 absolute inset-0 bg-cover bg-center xl:hidden"
                 alt="map"
-              />
+              /> */}
               <div className="w-full flex flex-col items-start  xl:justify-start  relative z-5 xl:px-0 px-4 xl:py-0 py-4">
                 <div className="w-full 2xl:pl-48 xl:pt-1">
                   <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-wider text-gray-800">
@@ -125,8 +142,8 @@ const Enquire = () => {
         </div>
       </div>
 
-      <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
-        <div className="flex flex-col lg:flex-row justify-between gap-8 animationLeft">
+      <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-24 md:py-12 md:px-16 py-9 px-8">
+        <div className="flex flex-col lg:flex-row justify-between gap-8 enquireAnimationLeft">
           <div className="w-full lg:w-5/12 flex flex-col justify-center">
             <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">
               About Us
@@ -150,7 +167,7 @@ const Enquire = () => {
           </div>
         </div>
 
-        <div className="flex lg:flex-row flex-col justify-between gap-8 pt-12 animationRight">
+        <div className="flex lg:flex-row flex-col justify-between gap-8 px-4 pt-12 enquireAnimationRight">
           <div className="w-full lg:w-5/12 flex flex-col justify-center">
             <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">
               Our Story
