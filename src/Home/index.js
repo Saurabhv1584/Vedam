@@ -19,9 +19,8 @@ const Home = () => {
           width={width}
           playsInline
           muted
-          controls
+          loop
           autoPlay
-          autoFocus
           src="first_video.mp4"
           preload="metadata"
           className="ml-auto mr-auto"
@@ -31,8 +30,7 @@ const Home = () => {
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
           <div className="md:w-1/2 mb-6 md:mb-0">
             <img
-              src="/public/1.jpeg"
-              // src="1.jpeg"
+              src="1.jpeg"
               alt="img"
               className="w-full h-auto object-cover rounded-lg"
             />
