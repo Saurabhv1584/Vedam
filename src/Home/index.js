@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="bg-[#f5f0e9]">
       <Navbar />
-      <div className="container animation mx-auto px-4 flex items-center box-border mt-6">
+      <div className=" animation mx-auto px-4 flex items-center box-border mt-6">
         <video
           height={height}
           width={width}
@@ -26,8 +26,8 @@ const Home = () => {
           className="ml-auto mr-auto"
         />
       </div>
-      <div className="px-16 py-12">
-        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
+      <div className="md:px-16 md:py-12 py-8 pl-0">
+        <div className="mx-auto flex flex-col md:flex-row items-center justify-between px-4">
           <div className="md:w-1/2 mb-6 md:mb-0">
             <img
               src="1.jpeg"
@@ -37,7 +37,7 @@ const Home = () => {
           </div>
 
           {/* Text Section */}
-          <div className="md:w-1/2 md:px-12 text-center md:text-left animationLeft">
+          <div className="md:w-1/2 md:px-14 sm:px-12 px-4 text-center md:text-left animationLeft">
             <h2 className="text-3xl md:text-4xl font-semibold text-[#7a6e66] uppercase tracking-wide mb-4">
               Building
             </h2> 
@@ -53,14 +53,14 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="container animationRight mx-auto px-8 flex items-center box-border mt-6">
+      <div className="container animationRight mx-auto md:px-8 px-4 flex items-center box-border mt-6">
         <img src="4.jpeg" alt="img" className="ml-auto mr-auto" />
       </div>
 
-      <div className="px-16 py-12 animationLeft">
-        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
+      <div className="md:px-16 md:py-12 py-8 pl-0 animationLeft">
+        <div className="mx-auto flex flex-col md:flex-row items-center justify-between px-6">
           {/* Text Section */}
-          <div className="md:w-1/2 md:px-12 text-center md:text-left">
+          <div className="md:w-1/2 md:px-12 text-center md:text-left mb-8 sm:mb-2">
             <h2 className="text-3xl md:text-4xl font-semibold text-[#7a6e66] uppercase tracking-wide mb-4">
               Building
             </h2>
@@ -111,7 +111,7 @@ const Home = () => {
         <img src="5.jpeg" alt="img" className="ml-auto mr-auto" />
       </div>
 
-      <div className="px-32 sm:px-4 md:px-8 lg:px-8 xl:px-16  mx-auto container flex justify-center items-center py-12 animation">
+      <div className="md:px-16 md:py-12 sm:py-4 pl-0 sm:px-4 lg:px-8 xl:px-16  mx-auto container flex justify-center items-center py-2 animation">
         <div className="flex flex-col lg:flex-row justify-center items-center space-y-6 lg:space-y-0">
           <div className="w-[80%] sm:w-auto flex flex-col justify-start items-start">
             <div>
@@ -125,7 +125,7 @@ const Home = () => {
                 by the readable content of a page when looking at its layout.
               </p>
             </div>
-            <div className="mt-16 w-full">
+            <div className="mt-8 mb-8 md:mt-16 w-full">
               <button className="px-4 bg-gray-900 flex justify-between items-center w-full lg:w-72 h-14 text-white hover:bg-gray-700">
                 <NavLink
                   to="/Gallery"
