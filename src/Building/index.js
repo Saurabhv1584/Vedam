@@ -23,12 +23,14 @@ const Building = () => {
             <p className=" font-sans text-2xl md:text-3xl font-semibold text-[#7a6e66] uppercase tracking-wide mb-4">
               Floor Plans
             </p>
-            <p className="font-sans uppercase text-center text-[#7a6e66] tracking-[0.2em] 
+            <p
+              className="font-sans uppercase text-center text-[#7a6e66] tracking-[0.2em] 
             leading-[1.8] w-[90%] max-w-[1100px] font-extralight text-[28px] 
-            word-spacing-[-0.22em]">
-              The team at MZA and B+H Architects planned every layout to give
-              residents an intimate connection with Bellevue’s nature-rich
-              landscape.
+            word-spacing-[-0.22em]"
+            >
+              Our commitment to innovation and efficiency is evident in our
+              rapidly rising towers, a testament to our ability to deliver
+              projects on time.
             </p>
             <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300 mt-4">
               {/* Explore */}
@@ -45,19 +47,24 @@ const Building = () => {
       </div>
 
       <div className=" mx-auto px-4 flex items-center box-border mt-6 buildingAnimation">
-        <img src='https://maribellevue.wpengine.com/wp-content/uploads/Dreamlife_Mira2_Cam3_Exterior_CityView_Final-1__1.jpg' alt="img" className="ml-auto mr-auto h-[calc(100vh-80px)]" />
+        <img
+          src="https://maribellevue.wpengine.com/wp-content/uploads/Dreamlife_Mira2_Cam3_Exterior_CityView_Final-1__1.jpg"
+          alt="img"
+          className="ml-auto mr-auto h-[calc(100vh-80px)]"
+        />
       </div>
 
       <div className="mx-auto px-6 lg:mx-auto relative mt-4 xl:px-20 lg:px-16 md:px-12 md:flex items-center gap-8 buildingAnimationRight">
         <div className="text-color flex justify-center flex-col w-4/5 md:w-1/3 sm:w-4/5 pt-4 sm:px-12 lg:pt-2 xl:pt-10 md:pl-8 md:pr-12 pl-0 pr-0">
           <h1 className="text-4xl md:text-4xl lg:text-4xl w-11/12 lg:w-11/12 xl:w-full xl:text-4xl text-gray-900 font-extrabold f-f-l">
-            Build, review and ship with ease
+            Soaring High: Vedam Remarkable Growth
           </h1>
           <div className="f-f-r text-base lg:text-base pb-10 sm:pb-0 pt-6 sm:pt-10 xl:pt-6">
             <h2>
-              The next big thing starts here. Start building with Prodify and be
-              the first to market with a product that is ready to take on the
-              competition and delight your customers
+              Vedam home has achieved a staggering 91% growth in 2023,
+              solidifying our position as a leading force in the luxury real
+              estate market. As we continue to expand our brand equity, the
+              future looks exceptionally bright.
             </h2>
           </div>
         </div>
@@ -69,39 +76,78 @@ const Building = () => {
       </div>
 
       <div className="lg:px-20 md:px-6 px-4 md:py-12 py-8 buildingAnimationLeft">
-            <div className="lg:flex items-center justify-between">
-            <div className="lg:w-7/12 lg:mt-0 mt-8">
-                    <div className="w-full h-full bg-red-200">
-                        <img src="5.jpeg" alt="apartment design" className="w-full object-cover aspect-[3.2] sm:block hidden" />
-                        {/* <img src="https://i.ibb.co/ZVPGjGJ/pexels-max-vakhtbovych-6782351-1.png" alt="apartment design" className="sm:hidden block w-full" /> */}
-                    </div>
-                    <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 lg:gap-8 gap-6 lg:mt-8 md:mt-6 mt-4">
-                        <img src="3.jpeg" className="w-full" alt="kitchen" />
-                        <img src="10.jpeg" className="w-full mt-2 mb:4 sm:mb-0" alt="sitting room" />
-                    </div>
-                </div>
-                <div className="lg:w-1/3 mt-4">
-                    <h1 className="text-4xl font-semibold leading-9 text-gray-800">Indoor Interiors</h1>
-                    <p className="text-base leading-6 mt-4 text-gray-600">Get inspired by our curated selection of luxiwood interiors. We hope get inspired to have luxiwood interior yourself. You’ll find tips here where you can buy a lot of cool furniture.</p>
-                    <button aria-label="view catalogue" className="focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 focus:outline-none mt-6 md:mt-8 text-base font-semibold leading-none text-gray-800 flex items-center hover:underline">
-                        <NavLink to='/Gallery' end>
-                        View Catalogue
-                        </NavLink>
-                        <svg className="ml-2 mt-1" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.33325 4H10.6666" stroke="#1F2937" strokeLinecap="round" strokeLinejoin="round" />
-                            <path d="M8 6.66667L10.6667 4" stroke="#1F2937" strokeLinecap="round" strokeLinejoin="round" />
-                            <path d="M8 1.33398L10.6667 4.00065" stroke="#1F2937" strokeLinecap="round" strokeLinejoin="round" />
-                        </svg>
-                    </button>
-                </div>
+        <div className="lg:flex items-center justify-between">
+          <div className="lg:w-7/12 lg:mt-0 mt-8">
+            <div className="w-full h-full bg-red-200">
+              <img
+                src="5.jpeg"
+                alt="apartment design"
+                className="w-full object-cover aspect-[3.2] sm:block hidden"
+              />
+              {/* <img src="https://i.ibb.co/ZVPGjGJ/pexels-max-vakhtbovych-6782351-1.png" alt="apartment design" className="sm:hidden block w-full" /> */}
             </div>
+            <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 lg:gap-8 gap-6 lg:mt-8 md:mt-6 mt-4">
+              <img src="3.jpeg" className="w-full" alt="kitchen" />
+              <img
+                src="10.jpeg"
+                className="w-full mt-2 mb:4 sm:mb-0"
+                alt="sitting room"
+              />
+            </div>
+          </div>
+          <div className="lg:w-1/3 mt-4">
+            <h1 className="text-4xl font-semibold leading-9 text-gray-800">
+              Indoor Interiors
+            </h1>
+            <p className="text-base leading-6 mt-4 text-gray-600">
+              Get inspired by our curated selection of luxiwood interiors. We
+              hope get inspired to have luxiwood interior yourself. You’ll find
+              tips here where you can buy a lot of cool furniture.
+            </p>
+            <button
+              aria-label="view catalogue"
+              className="focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 focus:outline-none mt-6 md:mt-8 text-base font-semibold leading-none text-gray-800 flex items-center hover:underline"
+            >
+              <NavLink to="/Gallery" end>
+                View Catalogue
+              </NavLink>
+              <svg
+                className="ml-2 mt-1"
+                width="12"
+                height="8"
+                viewBox="0 0 12 8"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.33325 4H10.6666"
+                  stroke="#1F2937"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M8 6.66667L10.6667 4"
+                  stroke="#1F2937"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M8 1.33398L10.6667 4.00065"
+                  stroke="#1F2937"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
         </div>
+      </div>
 
       <div
         className="py-4 sm:py:14 md:py:20 2xl:px-0 lg:px-12 px-4 2xl:mx-auto buildingAnimationRight"
         // style={{ height: 1000 }}
       >
-        <div className="md:flex items-center justify-between w-full">
+        <div className="md:flex items-center justify-between w-full px-10">
           <div className="xl:w-1/3 md:w-1/2 w-full">
             <h1 className="focus:outline-none md:w-60 font-bold md:text-6xl text-4xl leading-tight text-gray-800">
               Think<span className="font-normal italic"> out loud </span>
@@ -110,11 +156,10 @@ const Building = () => {
               role="contentinfo"
               className="focus:outline-none text-base leading-6 mt-4 sm:mt-8 text-gray-600 2xl:pr-24 xl:pr-0 pr-12"
             >
-              The design team at MZA Architects conceived an homage to
-              Bellevue’s landscape: a monument of stone, wood and glass. The
-              palette of cloud-greys, lake-blues, and bark-browns, is
-              illuminated by walls of focal windows scaling some of the highest
-              residential ceiling heights in the city.
+              Trusted by discerning high-net-worth individuals, Navraj has
+              earned a reputation for excellence. Our client testimonials are a
+              reflection of the trust and confidence placed in us to create
+              exceptional living spaces.
             </p>
             <div className="mt-10">
               <button className="flex items-center md:p-3 p-1 focus:outline-none text-xl font-medium leading-5 text-gray-800 focus:ring-2 focus:ring-offset-2 focus:ring-gray-700">
@@ -172,36 +217,73 @@ const Building = () => {
       </div>
 
       <div className="dark:bg-gray-900 buildingAnimation">
-            <div className="flex flex-col lg:flex-row items-stretch justify-between lg:px-0 px-6 lg:py-20 py-8 2xl:mx-auto 2xl:">
-                <div className="relative lg:w-1/2">
-                    <div className="hidden dark:bg-gray-800 bg-gray-100 w-full lg:w-10/12 lg:h-full lg:flex justify-end items-center">
-                        <div className="w-full lg:w-auto lg:-mr-32">
-                            <img src="https://i.ibb.co/YQjkqWr/juan-burgos-FIy-XGZ1q0mc-unsplash-1.png" alt="unsplash with decent chairs" className="w-full relative z-1 lg:pl-20 px-6 py-14" />
-                        </div>
-                    </div>
-                    <div className="absolute top-0 dark:bg-gray-800 bg-gray-100 md:h-96 w-full hidden md:block lg:hidden"></div>
-                    <div className="w-full h-full lg:hidden">
-                        <img src="https://i.ibb.co/YQjkqWr/juan-burgos-FIy-XGZ1q0mc-unsplash-1.png" alt="unsplash" className="w-full relative lg:pl-20 md:px-6 py-5 md:py-14" />
-                    </div>
-                </div>
-                <div className="bg-gray-100 dark:bg-gray-800 lg:w-1/2 lg:ml-12 lg:p-14 p-8 flex items-center">
-                    <div>
-                        <h1 className="dark:text-white md:w-8/12 lg:w-10/12 xl:8/12 2xl:w-8/12 w-full xl:text-6xl sm:text-5xl text-4xl font-semibold text-gray-800 capitalize">Modern Interior Decor</h1>
-                        <p className="dark:text-gray-300 md:w-9/12 lg:w-11/12 xl:w-10/12 2xl:9/12 text-base leading-normal text-gray-600 mt-5">Get inspired by our curated selection of luxiwood interiors. We hope get inspired to have luxiwood interior yourself. You’ll find tips here where you can buy a lot of cool furniture,decorations, plants, etc.</p>
-                        <button className="dark:bg-white dark:hover:bg-gray-400 dark:hover:text-gray-100 dark:text-gray-800 sm:w-auto w-full mt-8 text-base justify-between focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 focus:outline-none hover:bg-gray-700 font-medium leading-none text-white py-4 px-8 bg-gray-800 flex items-center">
-                            <NavLink>Explore</NavLink>
-                            <div className="ml-2 mt-0.5">
-                                <svg className="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M3.33325 8H12.6666" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
-                                    <path d="M10 10.6667L12.6667 8" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
-                                    <path d="M10 5.33301L12.6667 7.99967" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
-                                </svg>
-                            </div>
-                        </button>
-                    </div>
-                </div>
+        <div className="flex flex-col lg:flex-row items-stretch justify-between lg:px-0 px-6 lg:py-20 py-8 2xl:mx-auto 2xl:">
+          <div className="relative lg:w-1/2">
+            <div className="hidden dark:bg-gray-800 bg-gray-100 w-full lg:w-10/12 lg:h-full lg:flex justify-end items-center">
+              <div className="w-full lg:w-auto lg:-mr-32">
+                <img
+                  src="https://i.ibb.co/YQjkqWr/juan-burgos-FIy-XGZ1q0mc-unsplash-1.png"
+                  alt="unsplash with decent chairs"
+                  className="w-full relative z-1 lg:pl-20 px-6 py-14"
+                />
+              </div>
             </div>
+            <div className="absolute top-0 dark:bg-gray-800 bg-gray-100 md:h-96 w-full hidden md:block lg:hidden"></div>
+            <div className="w-full h-full lg:hidden">
+              <img
+                src="https://i.ibb.co/YQjkqWr/juan-burgos-FIy-XGZ1q0mc-unsplash-1.png"
+                alt="unsplash"
+                className="w-full relative lg:pl-20 md:px-6 py-5 md:py-14"
+              />
+            </div>
+          </div>
+          <div className="bg-gray-100 dark:bg-gray-800 lg:w-1/2 lg:ml-12 lg:p-14 p-8 flex items-center">
+            <div>
+              <h1 className="dark:text-white md:w-8/12 lg:w-10/12 xl:8/12 2xl:w-8/12 w-full xl:text-6xl sm:text-5xl text-4xl font-semibold text-gray-800 capitalize">
+                Modern Interior Decor
+              </h1>
+              <p className="dark:text-gray-300 md:w-9/12 lg:w-11/12 xl:w-10/12 2xl:9/12 text-base leading-normal text-gray-600 mt-5">
+                Get inspired by our curated selection of luxiwood interiors. We
+                hope get inspired to have luxiwood interior yourself. You’ll
+                find tips here where you can buy a lot of cool
+                furniture,decorations, plants, etc.
+              </p>
+              <button className="dark:bg-white dark:hover:bg-gray-400 dark:hover:text-gray-100 dark:text-gray-800 sm:w-auto w-full mt-8 text-base justify-between focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 focus:outline-none hover:bg-gray-700 font-medium leading-none text-white py-4 px-8 bg-gray-800 flex items-center">
+                <NavLink>Explore</NavLink>
+                <div className="ml-2 mt-0.5">
+                  <svg
+                    className="fill-stroke"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M3.33325 8H12.6666"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                    <path
+                      d="M10 10.6667L12.6667 8"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                    <path
+                      d="M10 5.33301L12.6667 7.99967"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
         </div>
+      </div>
 
       <Footer />
     </div>

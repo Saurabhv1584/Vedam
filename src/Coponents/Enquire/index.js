@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
-import './style.css';
+import "./style.css";
 
 const Enquire = () => {
   return (
@@ -9,28 +9,45 @@ const Enquire = () => {
       <Navbar />
 
       <div className="">
-            <div className="container mx-auto py-2 md:py-6 lg:py-8">
-                <div className="relative mx-4">
-                    <img src="https://i.ibb.co/q5k5j57/bench-accounting-nvzv-OPQW0gc-unsplash-1-1.png" alt="A work table with house plants" className="w-full h-full hidden lg:block" />
-                    <img src="https://i.ibb.co/94jQFsV/bench-accounting-nvzv-OPQW0gc-unsplash-1-1.png" alt="A work table with house plants" className="hidden sm:block lg:hidden w-full h-full" />
-                    <img src="https://i.ibb.co/cJz8LZ2/bench-accounting-nvzv-OPQW0gc-unsplash-1-1.png" alt="A work table with house plants" className="sm:hidden w-full h-full" />
+        <div className="container mx-auto py-2 md:py-6 lg:py-8">
+          <div className="relative mx-4">
+            <img
+              src="https://i.ibb.co/q5k5j57/bench-accounting-nvzv-OPQW0gc-unsplash-1-1.png"
+              alt="A work table with house plants"
+              className="w-full h-full hidden lg:block"
+            />
+            <img
+              src="https://i.ibb.co/94jQFsV/bench-accounting-nvzv-OPQW0gc-unsplash-1-1.png"
+              alt="A work table with house plants"
+              className="hidden sm:block lg:hidden w-full h-full"
+            />
+            <img
+              src="https://i.ibb.co/cJz8LZ2/bench-accounting-nvzv-OPQW0gc-unsplash-1-1.png"
+              alt="A work table with house plants"
+              className="sm:hidden w-full h-full"
+            />
 
-                    <div className="absolute z-2 top-0 left-0 mx-4 sm:mx-0 mt-36 sm:mt-0 sm:py-20 md:py-28 lg:py-20 xl:py-28 sm:pl-14 flex flex-col sm:justify-start items-start">
-                        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-gray-800 sm:w-8/12">Minimalist Furniture Design</h1>
-                        <p className="text-base leading-normal text-gray-800 mt-4 sm:mt-5 sm:w-5/12">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        {/* <button className="hidden sm:flex bg-gray-800 py-4 px-8 text-base font-medium text-white mt-8 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-gray-700">Explore</button> */}
-                    </div>
-                    {/* <button className="absolute bottom-0 sm:hidden dark:bg-white dark:text-gray-800 bg-gray-800 py-4 text-base font-medium text-white mt-8 flex justify-center items-center w-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-gray-700">Explore</button> */}
-                </div>
+            <div className="absolute z-2 top-0 left-0 mx-4 sm:mx-0 mt-36 sm:mt-0 sm:py-20 md:py-28 lg:py-20 xl:py-28 sm:pl-14 flex flex-col sm:justify-start items-start">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-gray-800 sm:w-8/12">
+                Minimalist Furniture Design
+              </h1>
+              <p className="text-base leading-normal text-gray-800 mt-4 sm:mt-5 sm:w-5/12">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              {/* <button className="hidden sm:flex bg-gray-800 py-4 px-8 text-base font-medium text-white mt-8 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-gray-700">Explore</button> */}
             </div>
+            {/* <button className="absolute bottom-0 sm:hidden dark:bg-white dark:text-gray-800 bg-gray-800 py-4 text-base font-medium text-white mt-8 flex justify-center items-center w-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-gray-700">Explore</button> */}
+          </div>
         </div>
+      </div>
 
       <div className="mt-8 py-4 lg:py-8  relative">
-        <img
+        {/* <img
           src="https://cdn.tuk.dev/assets/templates/radian/Back_Image.png"
           className="h-2/5 lg:h-full w-full lg:w-1/2 absolute inset-0 object-cover object-center xl:block hidden"
           alt="map"
-        />
+        /> */}
         <div className="xl:mx-auto xl:container  relative ">
           <div className="flex flex-wrap sm:px-12 px-4">
             <div className="w-full relative lg:w-1/2 xl:mt-10 mb-10 2xl:pr-24 2xl:pl-0 xl:pl-12 pl-0 ">
@@ -54,7 +71,8 @@ const Enquire = () => {
                         Address
                       </h2>
                       <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                        Office #13, NSTP, NUST University H-12 Sector, Islamabad
+                        Unit 1225, 12th floor, JMD Megapolis, Sector 48,
+                        Gurgaon, Haryana,122018
                       </h2>
                     </div>
                     <div className="mt-4 md:mt-8">
@@ -62,10 +80,10 @@ const Enquire = () => {
                         Contact
                       </h2>
                       <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                        +92 051 4567890 (Phone)
+                        +91 9871534959 (Phone)
                       </h2>
                       <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                        +92 123 4567890 (Cell)
+                        +91 9871534959 (Cell)
                       </h2>
                     </div>
                     <div className="mt-4 md:mt-8">
@@ -73,7 +91,7 @@ const Enquire = () => {
                         Email
                       </h2>
                       <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                        alphasquad@example.com
+                        Info@vedamhomes.com
                       </h2>
                     </div>
                   </div>
@@ -149,13 +167,13 @@ const Enquire = () => {
               About Us
             </h1>
             <p className="font-normal text-base leading-6 text-gray-600 ">
-              VEDAM is a new collection of boutique luxury studio, 1-, 2- and
-              3-bedroom condominiums in downtown Bellevue, WA. Each home offers
-              high-end finishes and soaring ceiling heights. Amenities include a
-              sky lounge, rooftop deck, private dining room, zen library,
-              fitness center, yoga studio and a pet spa. Now selling. Inquire to
-              learn more. For retail information please contact: Tracy Cornell |
-              tracyc@gibraltarusa.com Laura Miller | laura@gibraltarusa.com
+              For fifteen years, a unique appetite has fueled the creation of
+              extraordinary living spaces. Born from a desire for something
+              more, these exceptional thinkers and builders have dedicated their
+              lives to redefining the concept of quality. Discover our journey,
+              our ambitious plans for the future, and our unwavering vision.
+              Join us in shaping a legacy of innovation and excellence. Be a
+              part of our story, be a part of something big.
             </p>
           </div>
           <div className="w-full lg:w-8/12 ">
@@ -173,13 +191,10 @@ const Enquire = () => {
               Our Story
             </h1>
             <p className="font-normal text-base leading-6 text-gray-600 ">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum.In the first place we have granted to
-              God, and by this our present charter confirmed for us and our
-              heirs forever that the English Church shall be free, and shall
-              have her rights entire, and her liberties inviolate; and we will
-              that it be thus observed; which is apparent from
+              Vedam Home : A decade of shaping Gurugram's skyline with
+              expertise and innovation. Pioneering innovative living solutions,
+              elevating living standards with visionary design and impeccable
+              craftsmanship.
             </p>
           </div>
           <div className="w-full lg:w-8/12 lg:pt-8">

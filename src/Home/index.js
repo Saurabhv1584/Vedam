@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './style.css'
+import "./style.css";
 import Navbar from "../Coponents/navbar";
 import useWindowInfo from "../Coponents/Hooks/useWindowInfo";
 import Banner from "../Coponents/Banner";
@@ -40,11 +40,11 @@ const Home = () => {
           <div className="md:w-1/2 md:px-14 sm:px-12 px-4 text-center md:text-left animationLeft">
             <h2 className="text-3xl md:text-4xl font-semibold text-[#7a6e66] uppercase tracking-wide mb-4">
               Building
-            </h2> 
+            </h2>
             <p className="text-base md:text-xl leading-7 text-gray-600 mb-8">
-              Bring together the sage design approach of MZA Architecture, the
-              interior and amenity experts at B+H Architects, and the
-              development vision of Create World Real Estate, and you get VEDAM.
+              Each property in our portfolio is a testament to luxury and
+              sophistication. Our exclusive properties offer unparalleled
+              elegance and the finest amenities.
             </p>
             <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
               Explore
@@ -65,9 +65,11 @@ const Home = () => {
               Building
             </h2>
             <p className="text-base md:text-xl leading-7 text-gray-600 mb-8">
-              Bring together the sage design approach of MZA Architecture, the
-              interior and amenity experts at B+H Architects, and the
-              development vision of Create World Real Estate, and you get VEDAM.
+              Our plans include creating luxurious residential communities on
+              approximately 4 million square feet of the land. The remaining
+              area will be transformed into a dynamic commercial and retail hub,
+              strategically situated in the most desirable locations within
+              Haryana and Delhi NCR.
             </p>
             <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
               Explore
@@ -93,12 +95,13 @@ const Home = () => {
           {/* Text Section */}
           <div className="md:w-1/2 text-center md:text-left">
             <h2 className="text-3xl md:text-4xl font-semibold text-[#7a6e66] uppercase tracking-wide mb-4">
-              Floor Plans
+              The Choice of the Discerning
             </h2>
             <p className="text-base md:text-xl leading-7 text-gray-600 mb-8">
-              The team at MZA and B+H Architects planned every layout to give
-              residents an intimate connection with Bellevue’s nature-rich
-              landscape.
+              Trusted by discerning high-net-worth individuals, Veadm homes has
+              earned a reputation for excellence. Our client testimonials are a
+              reflection of the trust and confidence placed in us to create
+              exceptional living spaces.
             </p>
             <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
               Explore
@@ -121,8 +124,9 @@ const Home = () => {
             </div>
             <div className="mt-4 lg:w-4/5 xl:w-4/5">
               <p className="text-base leading-6 text-gray-600">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
+                Our exquisite sports amenities offer luxury and functionality,
+                with state-of-the-art facilities for fitness, swimming, tennis,
+                golf, and more, providing a refined sporting experience.
               </p>
             </div>
             <div className="mt-8 mb-8 md:mt-16 w-full">
