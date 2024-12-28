@@ -5,9 +5,10 @@ import useWindowInfo from "../Coponents/Hooks/useWindowInfo";
 import Banner from "../Coponents/Banner";
 import Footer from "../Coponents/footer";
 import { NavLink } from "react-router-dom";
+import Overlay from "../Coponents/Overlay.js";
 
 const Home = () => {
-  const [isBannerOpn, setIsBannerOpn] = useState(false);
+  const [isBannerOpn, setIsBannerOpn] = useState(true);
   const { width, height, orientation } = useWindowInfo();
   console.log(width, height, orientation);
   return (
@@ -215,7 +216,8 @@ const Home = () => {
       </div>
 
       <Footer />
-      <Banner isBannerOpn={isBannerOpn} setIsBannerOpn={setIsBannerOpn} />
+      <Overlay isBannerOpn={isBannerOpn} setIsBannerOpn={setIsBannerOpn} />
+      {/* <Banner isBannerOpn={isBannerOpn} setIsBannerOpn={setIsBannerOpn} /> */}
     </div>
   );
 };
