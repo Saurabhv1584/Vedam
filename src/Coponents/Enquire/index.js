@@ -1,9 +1,106 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
+import emailjs from "@emailjs/browser";
 import "./style.css";
+import Notify from "simple-notify";
 
 const Enquire = () => {
+  const [phoneNumber, setPhoneNumber] = useState('+91');
+  const form = useRef();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form_one = e.target;
+
+    const formData = new FormData(form_one);
+
+    const formObject = Object.fromEntries(formData.entries());
+
+    const { property_location, first_name, last_name, email_address, phone_number } = formObject;
+    console.log('phoneNumber.length()', phoneNumber.length)
+    if(phoneNumber.length < 13){
+      return ;
+    }
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        form.current,
+        {
+          publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+        }
+      )
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          new Notify({
+            status: "success",
+            title: "SUCCESS",
+            text: "Succefully recieved details",
+            effect: "fade",
+            speed: 300,
+            customClass: null,
+            customIcon: null,
+            showIcon: true,
+            showCloseButton: true,
+            autoclose: true,
+            autotimeout: 3000,
+            gap: 20,
+            distance: 20,
+            type: "outline",
+            position: "right top",
+          });
+          // setIsInputModalOpen(false)
+        },
+        (error) => {
+          console.log("FAILED...");
+          new Notify({
+            status: "error",
+            title: "ERROR",
+            text: "Error while recieving details",
+            effect: "fade",
+            speed: 300,
+            customClass: null,
+            customIcon: null,
+            showIcon: true,
+            showCloseButton: true,
+            autoclose: true,
+            autotimeout: 3000,
+            gap: 20,
+            distance: 20,
+            type: "outline",
+            position: "right top",
+          });
+        }
+      );
+  };
+  const isRepeatingDigits = (number) => {
+    return new Set(number).size <= 3;
+  };
+  const handleChange = (event) => {
+    const value = event.target.value;
+    console.log('value', value);
+    
+    let formattedValue = value;
+    
+    if (value.startsWith('+91')) {
+      formattedValue = value.substring(3);
+    }else{
+      formattedValue = ''
+    }
+    
+    formattedValue = formattedValue.replace(/\s+/g, '');
+    
+    if (formattedValue.length <= 10) {
+      if (formattedValue.length >= 8 && isRepeatingDigits(formattedValue)) {
+        return;
+      }
+      setPhoneNumber('+91' + formattedValue);
+    } else {
+      console.warn('Phone number is too long');
+    }
+  };
   return (
     <div className="bg-[#f5f0e9]">
       <Navbar />
@@ -114,6 +211,9 @@ const Enquire = () => {
                     <input
                       className="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 hover:border-indigo-600 focus:border-indigo-600 focus:outline-none border-black py-5 pl-4 text-gray-800"
                       type="text"
+                                    id="first_name"
+              name="first_name"
+              required
                       placeholder="Justin Timberlake"
                     />
                   </div>
@@ -123,8 +223,13 @@ const Enquire = () => {
                     </p>
                     <input
                       className="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 hover:border-indigo-600 focus:border-indigo-600 focus:outline-none border-black py-5 pl-4 text-gray-800"
-                      type="text"
-                      placeholder="Justin Timberlake"
+                      type="tel"
+                      id="phone_number"
+                      name="phone_number"
+                      placeholder="Phone number"
+                      value={phoneNumber}
+                      onChange={handleChange}
+                      required
                     />
                   </div>
                   <div className="mt-4 md:mt-8">
@@ -134,6 +239,9 @@ const Enquire = () => {
                     <input
                       className="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 hover:border-indigo-600 focus:border-indigo-600 focus:outline-none border-black py-5 pl-4 text-gray-800"
                       type="email"
+                      id="email_address"
+                      name="email_address"
+                      required
                       placeholder="example@mail.com"
                     />
                   </div>
