@@ -277,10 +277,10 @@ const Enquire = () => {
       <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-24 md:py-12 md:px-16 py-9 px-8">
         <div className="flex flex-col lg:flex-row justify-between gap-8 enquireAnimationLeft">
           <div className="w-full lg:w-5/12 flex flex-col justify-center">
-            <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">
+            <h1 className="lg:text-4xl font-bold text-4xl leading-9 text-[#7a6e66] pb-4">
               About Us
             </h1>
-            <p className="font-normal text-base leading-6 text-gray-600 ">
+            <p className="font-normal text-base leading-6 text-[#7a6e66] ">
               For fifteen years, a unique appetite has fueled the creation of
               extraordinary living spaces. Born from a desire for something
               more, these exceptional thinkers and builders have dedicated their
@@ -301,10 +301,10 @@ const Enquire = () => {
 
         <div className="flex lg:flex-row flex-col justify-between gap-8 px-4 pt-12 enquireAnimationRight">
           <div className="w-full lg:w-5/12 flex flex-col justify-center">
-            <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">
+            <h1 className="lg:text-4xl font-bold text-4xl leading-9 text-[#7a6e66] pb-4">
               Our Story
             </h1>
-            <p className="font-normal text-base leading-6 text-gray-600 ">
+            <p className="font-normal text-base leading-6 text-[#7a6e66] ">
               Vedam Home : A decade of shaping Gurugram's skyline with expertise
               and innovation. Pioneering innovative living solutions, elevating
               living standards with visionary design and impeccable
