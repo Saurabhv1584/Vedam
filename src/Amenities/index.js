@@ -3,6 +3,7 @@ import Navbar from "../Coponents/navbar";
 import Footer from "../Coponents/footer";
 import GalleryCarousel from "../Coponents/GalleryCarousel";
 import './style.css'
+import { NavLink } from "react-router-dom";
 
 const Amenities = () => {
   return (
@@ -115,13 +116,18 @@ const Amenities = () => {
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
+              <NavLink to='/Enquire' >
               <button className="hidden sm:flex bg-gray-800 py-4 px-8 text-base font-medium text-white mt-8 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-gray-700">
                 Explore
               </button>
+              </NavLink>
             </div>
+            
+            <NavLink to='/Enquire' >
             <button className="absolute bottom-0 sm:hidden dark:bg-white dark:text-gray-800 bg-gray-800 py-4 text-base font-medium text-white mt-8 flex justify-center items-center w-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-gray-700">
               Explore
             </button>
+            </NavLink>
           </div>
         </div>
       </div>

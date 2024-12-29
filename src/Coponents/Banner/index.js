@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Modal, Splitter } from "antd";
+import { NavLink } from "react-router-dom";
 
 const Banner = (props) => {
   const { isBannerOpn, setIsBannerOpn } = props;
@@ -38,11 +39,11 @@ const Banner = (props) => {
                 Vedam homes is now Open Move in Today
               </p>
             </div>
-            <div className="mt-8 flex justify-center items-center w-full">
+            <NavLink to='/Enquire' className="mt-8 flex justify-center items-center w-full" end>
               <button className="border border-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 sm:w-80 w-full hover:bg-black text-base font-medium leading-4 bg-gray-800 py-3 sm:py-4 text-white">
                 BOOK A TOUR
               </button>
-            </div>
+            </NavLink>
           </div>
         </div>
       </div>

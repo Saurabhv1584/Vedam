@@ -162,6 +162,7 @@ const Building = () => {
               exceptional living spaces.
             </p>
             <div className="mt-10">
+              <NavLink to='/Amenities' end >
               <button className="flex items-center md:p-3 p-1 focus:outline-none text-xl font-medium leading-5 text-gray-800 focus:ring-2 focus:ring-offset-2 focus:ring-gray-700">
                 Discover more
                 <svg
@@ -196,6 +197,7 @@ const Building = () => {
                   />
                 </svg>
               </button>
+              </NavLink>
             </div>
           </div>
           <div className="xl:w-4/6 md:w-1/2 w-full xl:pl-48">
@@ -248,8 +250,9 @@ const Building = () => {
                 find tips here where you can buy a lot of cool
                 furniture,decorations, plants, etc.
               </p>
+              <NavLink to='/Enquire' end>
               <button className="dark:bg-white dark:hover:bg-gray-400 dark:hover:text-gray-100 dark:text-gray-800 sm:w-auto w-full mt-8 text-base justify-between focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 focus:outline-none hover:bg-gray-700 font-medium leading-none text-white py-4 px-8 bg-gray-800 flex items-center">
-                <NavLink>Explore</NavLink>
+                Explore
                 <div className="ml-2 mt-0.5">
                   <svg
                     className="fill-stroke"
@@ -280,6 +283,7 @@ const Building = () => {
                   </svg>
                 </div>
               </button>
+              </NavLink>
             </div>
           </div>
         </div>

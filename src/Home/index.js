@@ -47,9 +47,11 @@ const Home = () => {
               sophistication. Our exclusive properties offer unparalleled
               elegance and the finest amenities.
             </p>
-            <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
-              Explore
-            </button>
+            <NavLink to="/Building" end>
+              <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
+                Explore
+              </button>
+            </NavLink>
           </div>
         </div>
       </div>
@@ -63,7 +65,7 @@ const Home = () => {
           {/* Text Section */}
           <div className="md:w-1/2 md:px-12 text-center md:text-left mb-8 sm:mb-2">
             <h2 className="text-3xl md:text-4xl font-semibold text-[#7a6e66] uppercase tracking-wide mb-4">
-              Building
+              Amenities
             </h2>
             <p className="text-base md:text-xl leading-7 text-gray-600 mb-8">
               Our plans include creating luxurious residential communities on
@@ -72,9 +74,11 @@ const Home = () => {
               strategically situated in the most desirable locations within
               Haryana and Delhi NCR.
             </p>
-            <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
-              Explore
-            </button>
+            <NavLink to="/Amenities" end>
+              <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
+                Explore
+              </button>
+            </NavLink>
           </div>
 
           <div className="md:w-1/2 mb-6 md:mb-0">
@@ -104,9 +108,11 @@ const Home = () => {
               reflection of the trust and confidence placed in us to create
               exceptional living spaces.
             </p>
-            <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
-              Explore
-            </button>
+            <NavLink to="/Building" end>
+              <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
+                Explore
+              </button>
+            </NavLink>
           </div>
         </div>
       </div>
