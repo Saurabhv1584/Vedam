@@ -6,7 +6,7 @@ import "./style.css";
 import Notify from "simple-notify";
 
 const Enquire = () => {
-  const [phoneNumber, setPhoneNumber] = useState('+91');
+  const [phoneNumber, setPhoneNumber] = useState("+91");
   const form = useRef();
 
   const handleSubmit = (e) => {
@@ -17,10 +17,16 @@ const Enquire = () => {
 
     const formObject = Object.fromEntries(formData.entries());
 
-    const { property_location, first_name, last_name, email_address, phone_number } = formObject;
-    console.log('phoneNumber.length()', phoneNumber.length)
-    if(phoneNumber.length < 13){
-      return ;
+    const {
+      property_location,
+      first_name,
+      last_name,
+      email_address,
+      phone_number,
+    } = formObject;
+    console.log("phoneNumber.length()", phoneNumber.length);
+    if (phoneNumber.length < 13) {
+      return;
     }
     emailjs
       .sendForm(
@@ -80,25 +86,25 @@ const Enquire = () => {
   };
   const handleChange = (event) => {
     const value = event.target.value;
-    console.log('value', value);
-    
+    console.log("value", value);
+
     let formattedValue = value;
-    
-    if (value.startsWith('+91')) {
+
+    if (value.startsWith("+91")) {
       formattedValue = value.substring(3);
-    }else{
-      formattedValue = ''
+    } else {
+      formattedValue = "";
     }
-    
-    formattedValue = formattedValue.replace(/\s+/g, '');
-    
+
+    formattedValue = formattedValue.replace(/\s+/g, "");
+
     if (formattedValue.length <= 10) {
       if (formattedValue.length >= 8 && isRepeatingDigits(formattedValue)) {
         return;
       }
-      setPhoneNumber('+91' + formattedValue);
+      setPhoneNumber("+91" + formattedValue);
     } else {
-      console.warn('Phone number is too long');
+      console.warn("Phone number is too long");
     }
   };
   return (
@@ -129,8 +135,8 @@ const Enquire = () => {
                 Minimalist Furniture Design
               </h1>
               <p className="text-base leading-normal text-gray-800 mt-4 sm:mt-5 sm:w-5/12">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
+                The Pinnacle Of Opulence 3&4 BHK Ultra Luxury Apartments Price
+                Starts ₹ 3.36* Cr Onwards
               </p>
               {/* <button className="hidden sm:flex bg-gray-800 py-4 px-8 text-base font-medium text-white mt-8 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-gray-700">Explore</button> */}
             </div>
@@ -211,9 +217,9 @@ const Enquire = () => {
                     <input
                       className="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 hover:border-indigo-600 focus:border-indigo-600 focus:outline-none border-black py-5 pl-4 text-gray-800"
                       type="text"
-                                    id="first_name"
-              name="first_name"
-              required
+                      id="first_name"
+                      name="first_name"
+                      required
                       placeholder="Justin Timberlake"
                     />
                   </div>
@@ -299,9 +305,9 @@ const Enquire = () => {
               Our Story
             </h1>
             <p className="font-normal text-base leading-6 text-gray-600 ">
-              Vedam Home : A decade of shaping Gurugram's skyline with
-              expertise and innovation. Pioneering innovative living solutions,
-              elevating living standards with visionary design and impeccable
+              Vedam Home : A decade of shaping Gurugram's skyline with expertise
+              and innovation. Pioneering innovative living solutions, elevating
+              living standards with visionary design and impeccable
               craftsmanship.
             </p>
           </div>
