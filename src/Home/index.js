@@ -216,8 +216,8 @@ const Home = () => {
       </div>
 
       <Footer />
-      <Overlay isBannerOpn={isBannerOpn} setIsBannerOpn={setIsBannerOpn} />
-      {/* <Banner isBannerOpn={isBannerOpn} setIsBannerOpn={setIsBannerOpn} /> */}
+      {/* <Overlay isBannerOpn={isBannerOpn} setIsBannerOpn={setIsBannerOpn} /> */}
+      <Banner isBannerOpn={isBannerOpn} setIsBannerOpn={setIsBannerOpn} />
     </div>
   );
 };
