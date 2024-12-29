@@ -16,12 +16,11 @@ const GalleryCarousel = () => {
         {/* Carousel for Small-Sized Screen */}
         <CarouselProvider
           className="relative block sm:hidden"
-          //   naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={3}
+          totalSlides={5}
           visibleSlides={1}
           step={1}
-          infinite={true}
+          // infinite={true}
           naturalSlideWidth={400}
           naturalSlideHeight={700}
         >
@@ -29,7 +28,7 @@ const GalleryCarousel = () => {
             <ButtonBack
               role="button"
               aria-label="slide backward"
-              className="w-12 h-12 md:w-14 md:h-14 rounded-full flex justify-center items-center bg-white border border-gray-300 hover:bg-gray-400 absolute z-8 left-0 ml-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer"
+              className="w-12 h-12 md:w-14 md:h-14 rounded-full flex justify-center items-center bg-white border border-gray-300 hover:bg-gray-400 absolute z-8 right-0 mr-8 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800"
               id="prev"
             >
               <svg
@@ -50,30 +49,30 @@ const GalleryCarousel = () => {
             </ButtonBack>
             <Slider>
               <Slide index={0}>
-                <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
+                <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 h-full">
                   <div className="relative w-full h-full lg:block hidden">
                     <img
                       src="2.jpeg"
                       alt="sitting area"
                       className="object-center object-cover w-full h-full"
                     />
-                    <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                    {/* <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                       <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">
                         Lounge Interior
                       </h1>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="relative w-full h-full lg:hidden">
                     <img
-                      src="https://i.ibb.co/tMB5CZW/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-3-1.png"
+                      src="2.jpeg"
                       alt="sitting area"
                       className="object-center object-cover w-full h-full"
                     />
-                    <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                    {/* <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                       <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">
                         Lounge Interior
                       </h1>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </Slide>
@@ -85,15 +84,15 @@ const GalleryCarousel = () => {
                       alt="chairs"
                       className="object-center object-cover w-full h-full"
                     />
-                    <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                    {/* <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                       <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">
                         Lounge Interior
                       </h1>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="relative w-full h-full lg:hidden">
                     <img
-                      src="8.jpeg"
+                      src="5.jpeg"
                       alt="chairs"
                       className="object-center object-cover w-full h-full"
                     />
@@ -109,7 +108,63 @@ const GalleryCarousel = () => {
                 <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
                   <div className="relative w-full h-full lg:block hidden">
                     <img
+                      src="8.jpeg"
+                      alt="chair"
+                      className="object-center object-cover w-full h-full"
+                    />
+                    {/* <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                      <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">
+                        Lounge Interior
+                      </h1>
+                    </div> */}
+                  </div>
+                  <div className="relative w-full h-full lg:hidden">
+                    <img
+                      src="8.jpeg"
+                      alt="chair"
+                      className="object-center object-cover w-full h-full"
+                    />
+                    {/* <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                      <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">
+                        Lounge Interior
+                      </h1>
+                    </div> */}
+                  </div>
+                </div>
+              </Slide>
+              <Slide index={3}>
+                <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
+                  <div className="relative w-full h-full lg:block hidden">
+                    <img
                       src="9.jpeg"
+                      alt="chair"
+                      className="object-center object-cover w-full h-full"
+                    />
+                    {/* <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                      <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">
+                        Lounge Interior
+                      </h1>
+                    </div> */}
+                  </div>
+                  <div className="relative w-full h-full lg:hidden">
+                    <img
+                      src="9.jpeg"
+                      alt="chair"
+                      className="object-center object-cover w-full h-full"
+                    />
+                    {/* <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                      <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">
+                        Lounge Interior
+                      </h1>
+                    </div> */}
+                  </div>
+                </div>
+              </Slide>
+              <Slide index={4}>
+                <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
+                  <div className="relative w-full h-full lg:block hidden">
+                    <img
+                      src="10.jpeg"
                       alt="chair"
                       className="object-center object-cover w-full h-full"
                     />

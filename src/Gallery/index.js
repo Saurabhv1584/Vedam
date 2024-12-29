@@ -13,10 +13,10 @@ const Gallery = () => {
       <div className="flex justify-center items-center">
         <div className="px-4 md:px-6 lg:px-20 2xl:mx-auto 2xl:container  lg:py-16 md:py-12  py-9 w-auto">
           <div className="flex flex-col items-center justify-center">
-            <h1 className="text-4xl font-semibold leading-9 text-center text-gray-800">
+            <h1 className="text-4xl font-bold leading-9 text-center text-[#7a6e66]">
               Welcome to Veda homes
             </h1>
-            <p className="text-base leading-normal text-center text-gray-600 mt-4 lg:w-1/2 md:w-10/12 w-11/12">
+            <p className="tracking-wide text-center font-normal leading-6 text-[#7a6e66] text-[1.25rem] mt-4 lg:w-1/2 md:w-10/12 w-11/12">
               The team at B+H Architects planned every layout to give residents
               an intimate connection with Bellevue’s nature-rich landscape
             </p>
