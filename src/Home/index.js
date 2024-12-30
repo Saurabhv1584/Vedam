@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div className="bg-[#f5f0e9]">
       <Navbar />
-      <div className=" animation mx-auto px-4 flex items-center box-border mt-6">
+      <div className=" animation mx-auto sm:px-4 flex items-center box-border sm:mt-6">
         <video
           height={height}
           width={width}
@@ -28,7 +28,7 @@ const Home = () => {
         />
       </div>
       <div className="md:px-16 md:py-12 py-8 pl-0">
-        <div className="mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+        <div className="mx-auto flex flex-col-reverse sm:flex-col md:flex-row items-center justify-between px-4">
           <div className="md:w-1/2 mb-6 md:mb-0">
             <img
               src="1.jpeg"
@@ -38,14 +38,16 @@ const Home = () => {
           </div>
 
           {/* Text Section */}
-          <div className="md:w-1/2 md:px-14 sm:px-12 px-4 text-center md:text-left animationLeft">
+          <div className="md:w-1/2 md:px-14 sm:px-12 px-4 py-4 text-center md:text-left animationLeft">
             <h2 className="text-3xl md:text-4xl font-semibold text-[#7a6e66] uppercase tracking-wide mb-4">
               Building
             </h2>
-            <p className="text-base md:text-xl leading-7 text-gray-600 mb-8">
+            <p className="tracking-[0.25em] font-normal uppercase text-[#7a6e66] md:text-xl leading-7 mb-8">
               Each property in our portfolio is a testament to luxury and
               sophistication. Our exclusive properties offer unparalleled
-              elegance and the finest amenities.
+              elegance and the finest amenities. The views from inside each
+              residence make a spectacular focal point and backdrop—day or
+              night, sun, clouds, or stars.
             </p>
             <NavLink to="/Building" end>
               <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">

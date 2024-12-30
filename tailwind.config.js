@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}", // Include all your React files
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        hues: ['Hues',], // Use 'Hues' as a custom font
+      },
+    },
   },
   plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")],
 }
