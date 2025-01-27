@@ -110,7 +110,7 @@ const Home = () => {
               reflection of the trust and confidence placed in us to create
               exceptional living spaces.
             </p>
-            <NavLink to="/Building" end>
+            <NavLink to="/Gallery" end>
               <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
                 Explore
               </button>
@@ -123,7 +123,7 @@ const Home = () => {
         <img src="5.jpeg" alt="img" className="ml-auto mr-auto" />
       </div>
 
-      <div className="md:px-16 md:py-12 sm:py-4 pl-0 sm:px-4 lg:px-8 xl:px-16  mx-auto container flex justify-center items-center py-2 animation">
+      {/* <div className="md:px-16 md:py-12 sm:py-4 pl-0 sm:px-4 lg:px-8 xl:px-16  mx-auto container flex justify-center items-center py-2 animation">
         <div className="flex flex-col lg:flex-row justify-center items-center space-y-6 lg:space-y-0">
           <div className="w-[80%] sm:w-auto flex flex-col justify-start items-start">
             <div>
@@ -221,7 +221,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <Footer />
       {/* <Overlay isBannerOpn={isBannerOpn} setIsBannerOpn={setIsBannerOpn} /> */}

@@ -89,7 +89,7 @@ const Amenities = () => {
         </div>
       </div>
 
-      <div className="dark:bg-gray-900">
+      {/* <div className="dark:bg-gray-900">
         <div className="container mx-auto py-9 md:py-12 lg:py-24">
           <div className="relative mx-4">
             <img
@@ -129,7 +129,7 @@ const Amenities = () => {
             </NavLink>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <GalleryCarousel />
 
