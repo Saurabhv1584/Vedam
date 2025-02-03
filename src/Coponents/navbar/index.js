@@ -3,7 +3,7 @@ import "./style.css";
 import { Affix } from "antd";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBuilding } from "@fortawesome/free-regular-svg-icons";
+import { faBuilding, faHandshake } from "@fortawesome/free-regular-svg-icons";
 import { faLaptopFile, faPersonChalkboard, faVault } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
@@ -49,6 +49,13 @@ const Navbar = () => {
                 className="text-gray-600 hover:text-blue-500"
               >
                 Gallery
+              </NavLink>
+              <NavLink
+                to="/WhatSetUsApart"
+                end
+                className="text-gray-600 hover:text-blue-500"
+              >
+                What Set Us Apart
               </NavLink>
               <NavLink
                 to="/Enquire"
@@ -114,6 +121,13 @@ const Navbar = () => {
                 Gallery
               </NavLink>
               <NavLink
+                to="/WhatSetUsApart"
+                end
+                className="z-99 block px-4 py-2 text-gray-600 hover:bg-gray-100"
+              >
+                What Set Us Apart
+              </NavLink>
+              <NavLink
                 to="/Enquire"
                 end
                 className="z-99 block px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-600"
@@ -172,6 +186,16 @@ const Navbar = () => {
                   >
                     Gallery
                     <FontAwesomeIcon icon={faVault} className="ml-8" />
+                  </NavLink>
+                </li>
+                <li className="border-b border-gray-400 my-8 uppercase">
+                  <NavLink
+                    to="/WhatSetUsApart"
+                    end
+                    className="block px-4 py-2 text-gray-600 hover:bg-gray-100"
+                  >
+                    What Set Us Apart
+                    <FontAwesomeIcon icon={faHandshake} className="ml-8" />
                   </NavLink>
                 </li>
                 <li className="border-b border-gray-400 my-8 uppercase">

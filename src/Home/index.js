@@ -4,8 +4,8 @@ import Navbar from "../Coponents/navbar";
 import useWindowInfo from "../Coponents/Hooks/useWindowInfo";
 import Banner from "../Coponents/Banner";
 import Footer from "../Coponents/footer";
+// import VideoPlayer from 'react-video-js-player';
 import { NavLink } from "react-router-dom";
-import Overlay from "../Coponents/Overlay.js";
 
 const Home = () => {
   const [isBannerOpn, setIsBannerOpn] = useState(true);
@@ -15,6 +15,19 @@ const Home = () => {
     <div className="bg-[#f5f0e9]">
       <Navbar />
       <div className=" animation mx-auto sm:px-4 flex items-center box-border sm:mt-6">
+        <video
+          // height={height}
+          // width={width}
+          playsInline
+          muted
+          loop
+          autoPlay
+          src="first_video.mp4"
+          preload="metadata"
+          className="w-full max-w-6xl max-h-2xl rounded-lg shadow-lg ml-auto mr-auto lg:h-full"
+        />
+      </div>
+      {/* <div className=" animation mx-auto sm:px-4 flex items-center box-border sm:mt-6">
         <video
           height={height}
           width={width}
@@ -26,7 +39,20 @@ const Home = () => {
           preload="metadata"
           className="ml-auto mr-auto"
         />
-      </div>
+      </div> */}
+      {/* <div className=" animation mx-auto sm:px-4 flex items-center box-border sm:mt-6">
+        <video
+          height={height}
+          width={width}
+          playsInline
+          muted
+          loop
+          autoPlay
+          src="first_video.mp4"
+          preload="metadata"
+          className="ml-auto mr-auto"
+        />
+      </div> */}
       <div className="md:px-16 md:py-12 py-8 pl-0">
         <div className="mx-auto flex flex-col-reverse sm:flex-col md:flex-row items-center justify-between px-4">
           <div className="md:w-1/2 mb-6 md:mb-0">
