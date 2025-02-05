@@ -36,7 +36,7 @@ const Banner = (props) => {
             </h1>
             <div className="mt-4">
               <p className="font-hues font-thin text-[24px] sm:text-[32px] uppercase text-[#7a6e66] text-center mb-0 tracking-[0.1em] [text-stroke:0.5px_#7a6e66]">
-                Vedam homes is now Open Move in Today
+              Vedam homes luxury floors are open for booking now.
               </p>
             </div>
             <NavLink to='/Enquire' className="mt-8 flex justify-center items-center w-full" end>
