@@ -18,7 +18,7 @@ const Navbar = () => {
             {/* Logo and Company Name */}
             <NavLink to="/" className="flex items-center" end>
               {/* <div className="h-8 w-8 bg-blue-500 rounded-full"></div> */}
-              <img className="h-10 w-32" src="vedam-logo-01.png"  alt="logo" />
+              <img className="h-10 w-32" src="vedam-homes-logo-2.png"  alt="logo" />
               {/* <img className="h-8 w-24 mix-blend-luminosity" src="10-01.png"  alt="logo" /> */}
               {/* <img className="h-8" src="logo-4.jpg" alt="logo" /> */}
               {/* <span className="text-lg ml-4 font-semibold text-gray-800">
